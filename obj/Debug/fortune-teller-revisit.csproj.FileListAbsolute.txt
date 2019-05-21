@@ -1,0 +1,7 @@
+C:\Users\Ali\Documents\Visual Studio 2017\Projects\C# Revisit\fortune-teller-revisit\fortune-teller-revisit\bin\Debug\fortune-teller-revisit.exe.config
+C:\Users\Ali\Documents\Visual Studio 2017\Projects\C# Revisit\fortune-teller-revisit\fortune-teller-revisit\bin\Debug\fortune-teller-revisit.exe
+C:\Users\Ali\Documents\Visual Studio 2017\Projects\C# Revisit\fortune-teller-revisit\fortune-teller-revisit\bin\Debug\fortune-teller-revisit.pdb
+C:\Users\Ali\Documents\Visual Studio 2017\Projects\C# Revisit\fortune-teller-revisit\fortune-teller-revisit\obj\Debug\fortune-teller-revisit.csprojResolveAssemblyReference.cache
+C:\Users\Ali\Documents\Visual Studio 2017\Projects\C# Revisit\fortune-teller-revisit\fortune-teller-revisit\obj\Debug\fortune-teller-revisit.csproj.CoreCompileInputs.cache
+C:\Users\Ali\Documents\Visual Studio 2017\Projects\C# Revisit\fortune-teller-revisit\fortune-teller-revisit\obj\Debug\fortune-teller-revisit.exe
+C:\Users\Ali\Documents\Visual Studio 2017\Projects\C# Revisit\fortune-teller-revisit\fortune-teller-revisit\obj\Debug\fortune-teller-revisit.pdb
