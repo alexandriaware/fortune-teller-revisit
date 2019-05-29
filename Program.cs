@@ -79,7 +79,40 @@ namespace fortune_teller_revisit
                 }
             } while (isValid == false);
 
-            Console.WriteLine(userBirthMonthInt);
+            Console.WriteLine("Which of these colors is your favorite? Red, orange, yellow, green, blue, indigo, or violet?");
+            string faveColorValue = Console.ReadLine().ToLower();
+            string faveColorTransport = "";
+
+            switch (faveColorValue)
+            {
+                case "red":
+                    faveColorTransport = "full-size pickup truck";
+                    break;
+                case "orange":
+                    faveColorTransport = "motorcycle";
+                    break;
+                case "yellow":
+                    faveColorTransport = "Jeep";
+                    break;
+                case "green":
+                    faveColorTransport = "Minivan";
+                    break;
+                case "blue":
+                    faveColorTransport = "bicycle";
+                    break;
+                case "indigo":
+                    faveColorTransport = "convertible";
+                    break;
+                case "violet":
+                    faveColorTransport = "four door sedan";
+                    break;
+                default:
+                    faveColorTransport = "you're walking everywhere";
+                    break;
+            }
+
+            Console.WriteLine("Finally, how many siblings do you have?");
+            int numSiblings = int.Parse(Console.ReadLine());
 
             Console.ReadKey();
         }
