@@ -15,6 +15,16 @@ namespace fortune_teller_revisit
 
             Console.WriteLine("How old are you?");
             int userAge = int.Parse(Console.ReadLine());
+            string retireWhen = "";
+
+            if (userAge % 2 == 0)
+            {
+                retireWhen = "will retire at age 55";
+            }
+            else
+            {
+                retireWhen = "will retire at age 48";
+            }
 
             Console.WriteLine("In which month were you born?");
             string userMonthString = Console.ReadLine().ToLower();
@@ -113,6 +123,35 @@ namespace fortune_teller_revisit
 
             Console.WriteLine("Finally, how many siblings do you have?");
             int numSiblings = int.Parse(Console.ReadLine());
+
+            string vacayHome = Console.ReadLine().ToLower();
+
+            if (numSiblings == 0)
+            {
+                vacayHome = "Anne Arbor";
+            }
+            else if (numSiblings == 1)
+            {
+                vacayHome = "London";
+            }
+            else if (numSiblings == 2)
+            {
+                vacayHome = "Cancun";
+            }
+            else if (numSiblings == 3)
+            {
+                vacayHome = "Dublin";
+            }
+            else if (numSiblings > 3)
+            {
+                vacayHome = "Tampa";
+            }
+            else
+            {
+                vacayHome = "Boondocks";
+            }
+
+            Console.WriteLine(userName + " " + retireWhen);
 
             Console.ReadKey();
         }
