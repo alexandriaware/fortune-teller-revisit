@@ -89,6 +89,21 @@ namespace fortune_teller_revisit
                 }
             } while (isValid == false);
 
+            string moneyInBank = "";
+
+            if(userBirthMonthInt >=1 && userBirthMonthInt <= 4)
+            {
+                moneyInBank = "1.8 million dollars";
+            }
+            else if(userBirthMonthInt >= 5 && userBirthMonthInt <= 8)
+            {
+                moneyInBank = "$875,000";
+            }
+            else if(userBirthMonthInt >=9 && userBirthMonthInt <= 12)
+            {
+                moneyInBank = "$3,000,000";
+            }
+
             Console.WriteLine("Which of these colors is your favorite? Red, orange, yellow, green, blue, indigo, or violet?");
             string faveColorValue = Console.ReadLine().ToLower();
             string faveColorTransport = "";
@@ -124,7 +139,7 @@ namespace fortune_teller_revisit
             Console.WriteLine("Finally, how many siblings do you have?");
             int numSiblings = int.Parse(Console.ReadLine());
 
-            string vacayHome = Console.ReadLine().ToLower();
+            string vacayHome;
 
             if (numSiblings == 0)
             {
@@ -151,7 +166,7 @@ namespace fortune_teller_revisit
                 vacayHome = "Boondocks";
             }
 
-            Console.WriteLine(userName + " " + retireWhen);
+            Console.WriteLine(userName + " " + retireWhen + " with " + moneyInBank + ", a vacation home in " + vacayHome + ", and a " + faveColorTransport);
 
             Console.ReadKey();
         }
